@@ -45,7 +45,7 @@
         width: 320px;
         height: 500px;
         background-color: #ffffff;
-        border-radius: 0.6rem;
+        border-radius: 1rem;
       }
       .qr {
         width: 288px;
@@ -54,19 +54,19 @@
         padding-top: 18px;
       }
       .qr img {
-        border-radius: 0.6rem;
+        border-radius: 1rem;
       }
       .text {
-        padding: 18px 29.5px 18px;
+        padding: 6px 29.5px 6px;
         text-align: center;
         font-family: "Outfit";
       }
-      .heading {
+      .heading h1 {
         font-weight: 700;
         font-size: 1.5rem;
       }
       .paragraph {
-        padding-top: 18px;
+        padding-top: 6px;
         font-size: 15px;
         font-weight: 400;
         color: #8e8a95;
@@ -80,14 +80,19 @@
     />
   </head>
   <body style="background-color: #d5e1ef">
-    <div class="container">
+    <main class="container">
       <div class="outer-box">
         <div class="qr">
-          <img src="./images/image-qr-code.png" width="288" height="288" />
+          <img
+            src="./images/image-qr-code.png"
+            width="288"
+            height="288"
+            alt="qr code"
+          />
         </div>
         <div class="text">
           <div class="heading">
-            Improve your front-end skill by building projects
+            <h1>Improve your front-end skill by building projects</h1>
           </div>
           <div class="paragraph">
             Scan the QR code to visit Frontend mentor and test your coding
@@ -102,6 +107,6 @@
           >Frontend Mentor</a
         >. Coded by <a href="#">Teerawat</a>.
       </div>
-    </div>
+    </main>
   </body>
 </html>
